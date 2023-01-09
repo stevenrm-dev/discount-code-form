@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inconsolata:wght@400;700&family=Inter:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0" />
+
+    <title>Siroko Form</title>
+</head>
+<body class="body">
+    <main class="main space__main w--max">
+        <picture class="logo__wrapper img__wrapper margin__bottom--25">
+            <img class="logo__img" src="./assets/img/siroko-logo.png" alt="Siroko logo">
+        </picture>
+
+        <p class="tag tag__tx tx--uppercase">Paso 1 de 2</p>
+        <h1 class="tx__title tx--uppercase tx__color--light margin__top--15">¡Vamos allá!</h1>
+        <p class="tx__info tx--code tx__color--light margin__top--25">Has llegado hasta el test de Siroko. Responde las siguientes preguntas y genera tu código premiado a medida.</p>
+    
+        <form class="quiz space__container margin__top--25">
+            <div class="quiz__step1">
+                <p class="quiz__tx tx--sans tx--uppercase tx__color--bright">Uso siroko desde...</p>
+                <label class="checkbox__wrapper tx--alt tx--code tx__color--light h--100" for="step1__data1">
+                    <input type="radio" class="checkbox" name="step1" id="step1__data1" value="2016">
+                    <span class="dot"></span>
+                    2016
+                </label>
+                <label class="checkbox__wrapper tx--alt tx--code tx__color--light h--100" for="step1__data2">
+                    <input type="radio" class="checkbox" name="step1" id="step1__data2" value="2017">
+                    <span class="dot"></span>
+                    2017
+                </label>
+                <label class="checkbox__wrapper tx--alt tx--code tx__color--light h--100" for="step1__data3">
+                    <input type="radio" class="checkbox" name="step1" id="step1__data3" value="2018">
+                    <span class="dot"></span>
+                    2018
+                </label>
+                <label class="checkbox__wrapper tx--alt tx--code tx__color--light h--100" for="step1__data4">
+                    <input type="radio" class="checkbox" name="step1" id="step1__data4" value="2019">
+                    <span class="dot"></span>
+                    2019
+                </label>
+                <label class="checkbox__wrapper tx--alt tx--code tx__color--light h--100" for="step1__data5">
+                    <input type="radio" class="checkbox" name="step1" id="step1__data5" value="2020">
+                    <span class="dot"></span>
+                    2020
+                </label>
+                <label class="checkbox__wrapper tx--alt tx--code tx__color--light h--100" for="step1__data6">
+                    <input type="radio" class="checkbox" name="step1" id="step1__data6" value="2021">
+                    <span class="dot"></span>
+                    2021
+                </label>
+                <input type="button" class="btn quiz__btn tx--alt tx--sans tx__color--light w--100" value="Siguiente">
+            </div>
+    
+            <div class="quiz__step2 d--none">
+                <p class="quiz__tx tx--sans tx--uppercase tx__color--bright">Por unas gafas siroko, yo...</p>
+                <label class="checkbox__wrapper tx--alt tx--code tx__color--light h--100" for="step2__data1">
+                    <input type="radio" class="checkbox" name="step2" id="step2__data1" value="Segaría a navaja">
+                    <span class="dot"></span>
+                    Segaría a navaja
+                </label>
+                <label class="checkbox__wrapper tx--alt tx--code tx__color--light h--100" for="step2__data2">
+                    <input type="radio" class="checkbox" name="step2" id="step2__data2" value="Rechazaría un cachopo">
+                    <span class="dot"></span>
+                    Rechazaría un cachopo
+                </label>
+                <label class="checkbox__wrapper tx--alt tx--code tx__color--light h--100" for="step2__data3">
+                    <input type="radio" class="checkbox" name="step2" id="step2__data3" value="Renunciaría a mis tierras">
+                    <span class="dot"></span>
+                    Renunciaría a mis tierras
+                </label>
+                <label class="checkbox__wrapper tx--alt tx--code tx__color--light h--100" for="step2__data4">
+                    <input type="radio" class="checkbox" name="step2" id="step2__data4" value="Regalaría una ternera">
+                    <span class="dot"></span>
+                    Regalaría una ternera
+                </label>
+                <input type="button" class="btn quiz__btn tx--alt tx--sans tx__color--light w--100" value="Siguiente">
+            </div>
+    
+            <div class="quiz__promo d--none">
+                <p class="quiz__tx tx--sans tx--uppercase tx__color--bright">Lo prometido es deuda</p>
+                <div class="promo__wrapper">
+                    <input type="text" class="tx--code tx--promo tx--uppercase promo__code" value="Código" disabled>
+                    <input type="button" class="btn--copy tx--code tx--copy tx__color--dark" value="Copiar">
+                    <span class="icon--check material-symbols-outlined d--none">check</span>
+                </div>
+                <p class="tx__info tx--code tx__color--light space__block--10">Introduce este código en tu próxima compra para conseguir tu premio. ¡Disponible durante 20 minutos!</p>
+                <div class="checkbox__wrapper countdown__wrapper">
+                    <span class="icon--timer material-symbols-outlined tx__color--light">timer</span>
+                    <p class="time tx--code tx--promo tx__color--light">20:00</p>
+                </div>
+                <a class="btn quiz__btn link tx--alt tx--sans tx__color--light w--100" href="https://www.siroko.com/" target="_blank">Ir a Siroko.com</a>
+            </div>
+        </form>
+    </main>
+
+    <picture class="bg__wrapper">
+        <img class="bg__img w--100 h--100" src="./assets/img/siroko-bg.jpg" alt="This is the background image of the page">
+    </picture>
+
+    <footer class="footer space__main w--100">
+        <div class="footer__wrapper w--max">
+            <p class="footer__tx tx--alt tx--code tx__color--light">2016-2021 Siroko Solutions S.L.</p>
+            <p class="footer__tx tx--alt tx--code tx__color--light">Todos los derechos reservados. <a class="link tx__color--light" href="#">Ver bases.</a></p>
+        </div>
+    </footer>
+
+    <script src="./js/quiz.js"></script>
+    <script src="./js/copy.js"></script>
+    <script src="./js/timer.js"></script>
+    <script src="./js/listeners.js"></script>
+</body>
+</html>

@@ -1,0 +1,24 @@
+@font-face {
+    font-family: 'LiberatorSIROKO';
+    src: url(../../../assets/fonts/LiberatorSIROKO-Heavy.ttf) format(truetype);
+    font-style: normal;
+    font-weight: 800;
+}
+
+// FAMILY
+$f-f__primary: 'LiberatorSIROKO', sans-serif;
+$f-f__sans: 'Inter', sans-serif;
+$f-f__code: 'Inconsolata', monospace;
+
+// WEIGHT
+$f-w__regular: 400;
+$f-w__bold: 700;
+$f-w__heavy: 800;
+
+// SIZE
+$f-s__biggest: 2.2rem;
+$f-s__big: 1.55rem;
+$f-s__default: 1rem;
+$f-s__default--alt: .95rem;
+$f-s__tiny: .77rem;
+$f-s__tiniest: .57rem;
