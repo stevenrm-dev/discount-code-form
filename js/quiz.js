@@ -21,7 +21,7 @@ function quizLogic(step){
         saveAnswer1 = parseInt(saveAnswer.slice(-1), 10) + 1;
 
         tagText.innerHTML = "Paso 2 de 2";
-        titleText.innerHTML = "Vamos, una más";
+        titleText.innerHTML = "La última, ¡Ya casi lo tienes!";
 
         headerText.classList.add("d--none");
         document.getElementsByClassName("quiz__step1")[0].classList.add("d--none");
