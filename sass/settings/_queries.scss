@@ -1,0 +1,20 @@
+@media only screen and (min-width: 720px) {
+    .tx__info {
+        max-width: 80%;   
+    }
+}
+
+@media only screen and (min-width: 936px) {
+    .footer.space__main,
+    .main.space__main {
+        padding-inline: 0;
+    }
+
+    .footer .footer__wrapper,
+    .main.space__main {
+        &.w--max {
+            margin: 0 auto;
+            width: 940px;
+        }
+    }
+}

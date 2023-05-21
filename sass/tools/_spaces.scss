@@ -1,0 +1,45 @@
+.space {
+    &__main {
+        padding: 1.5rem;
+    }
+
+    &__container {
+        padding: 1.25rem;
+    }
+
+    &__inline {
+        &--main {
+            padding-inline: 1.5rem;
+        }
+    }
+
+    &__block {
+        &--main {
+            padding-block: 1.5rem;
+        }
+        &--10 {
+            padding-block: .63rem;
+        }
+    }
+}
+
+.margin {
+    &__main {
+        margin: 1.5rem;
+    }
+
+    &__bottom {
+        &--25 {
+            margin-bottom: 1.5rem;
+        }
+    }
+
+    &__top {
+        &--15{
+            margin-top: .94rem;
+        }
+        &--25 {
+            margin-top: 1.5rem;
+        }
+    }
+}

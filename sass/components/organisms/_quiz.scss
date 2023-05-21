@@ -1,0 +1,32 @@
+.quiz {
+    background-color: $c-dark--70;
+    border-radius: .2rem;
+
+    .quiz__tx,
+    .radio-wrapper {
+        margin-bottom: .63rem;
+    }
+
+    .radio-wrapper {
+        display: flex;
+        align-items: center;
+        position: relative;
+
+        &:has(.input--radio:checked) {
+            background-color: $c-primary__red;
+        }
+
+        &.timeout {
+            background-color: $c-secondary__red;
+        }
+    }
+
+    &__promo {
+        .promo__wrapper {
+            background-color: $c-primary__light;
+            display: flex;
+            justify-content: space-between;
+            position: relative;
+        }
+    }
+}

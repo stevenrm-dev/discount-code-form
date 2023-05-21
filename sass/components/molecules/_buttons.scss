@@ -1,0 +1,62 @@
+.radio-wrapper {
+    background-color: $c-opacity--light;
+    cursor: pointer;
+
+    &.countdown__wrapper {
+        cursor: initial;
+    }
+}
+
+.radio-wrapper,
+.promo__wrapper,
+.btn {
+    padding: .85rem;
+    border-radius: .2rem;
+}
+
+.btn {
+    background-color: $c-primary__blue;
+    border: none;
+    text-align: center;
+    cursor: pointer;
+
+    &.link {
+        text-decoration: none;
+    }
+
+    &--copy {
+        border: {
+            width: 2px;
+            style: solid;
+            color: $c-secondary__dark;
+            radius: 0;
+        }
+        padding: {
+            block: .35rem;
+            inline: .45rem;
+        }
+        cursor: pointer;
+    }
+
+    &.link {
+        display: block;
+    }
+
+    &--alert {
+        background-color: $c-secondary__red;
+    }
+}
+
+.timeout {
+    display: flex;
+    justify-content: center;
+    transition: .2s;
+
+    .time {
+        display: flex;
+        align-items: center;
+        .link {
+            margin-left: .25rem;
+        }
+    }
+}
