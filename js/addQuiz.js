@@ -28,7 +28,7 @@ function updateForm(content) {
         `;
     });
 
-    if (currentQuestionIndex === questions.length - 1) {
+    if(currentQuestionIndex === questions.length - 1) {
         const inputs = document.querySelectorAll('.input--radio');
 
         inputs.forEach((input) => {
@@ -47,8 +47,7 @@ function couponPageContent() {
         <form class="promo__wrapper">
             <label for="i-promo"></label>
             <input type="text" class="tx--code tx--promo tx--uppercase promo__code" value="${coupon}" id="i-promo" disabled>
-            <button class="btn--copy tx--code tx--copy tx__color--dark">Copiar</button>
-            <span class="icon--check material-symbols-outlined d--none">check</span>
+            <button class="btn--copy tx--code tx--copy tx__color--dark" type="button">Copiar</button>
         </form>
         <p class="tx__info tx--code tx__color--light space__block--10">Introduce este código en tu próxima compra para conseguir tu premio. ¡Disponible durante 20 minutos!</p>
         <div class="checkbox__wrapper countdown__wrapper">
@@ -57,6 +56,13 @@ function couponPageContent() {
         </div>
         <a class="btn quiz__btn link tx--alt tx--sans tx__color--light w--100" href="https://github.com/stevenrm-dev/discount-code-form/">Volver al Repo</a>
     `;
+    
+    const btnCopy = document.getElementsByClassName('btn--copy')[0];
+    const timerContainer = document.getElementsByClassName('time')[0];
+
+    codeToClipBoard(btnCopy);
+    //Inicializa la función de timer.js, además añade los parámetros de 1200 segundos = 20 minutos
+    startTimer(1200, timerContainer, btnCopy);
 }
 
 btnNext.addEventListener('click', ()=> {

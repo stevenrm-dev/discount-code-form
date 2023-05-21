@@ -37,9 +37,6 @@ button {
 .h--screen {
   height: 100vh; }
 
-.d--none {
-  display: none !important; }
-
 .space__main {
   padding: 1.5rem; }
 
@@ -165,11 +162,6 @@ button {
 
 .icon--timer {
   padding-right: .5rem; }
-
-.icon--check {
-  color: #59d95d;
-  position: absolute;
-  right: 2rem; }
 
 .tag {
   background-color: #5DC2BD;
