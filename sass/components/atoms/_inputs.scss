@@ -1,4 +1,12 @@
-.promo__code {
-    width: 62%;
-    border: none;
+.coupon-wrapper {
+    display: flex;
+    align-items: stretch;
+    gap: .5em;
+
+    .promo__code {
+        width: 62%;
+        color: $c-primary__light;
+        border: none;
+        padding-inline: .5em;
+    }
 }

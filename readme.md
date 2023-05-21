@@ -80,27 +80,6 @@ are images, fonts...
 Todos los documentos desarrollados con JavaScript. El código ha sido dividido en varios documentos
 para una lectura más cómoda.
 
--Copy: Hace referencia a todo lo que tiene que ver con la funcionalidad de copiar el código promocional.
-
--Quiz: Tiene que ver con la lógica que da funcionamiento al cuestionario de preguntas y hace que salte
-de una pantalla a otra.
-
--Timer: Genera, injecta en el HTML y hace funcionar la cuenta atrás que aparece al obtener el código
-promocional.
-
--Listeners: Recoge las funciones que comprueban si los botones han sido pulsados e inicializan el
-código del resto de documentos javascript.
-
 [EN]
 All documents developed on JavaScript. The code has been divided on several documents for
 easy reading.
-
--Copy: This is all about the functionality of copy the promotional code.
-
--Quiz: This code is the logic and functionality around the questions and changing the screens.
-
--Timer: Generate, inject on the HTML and runs the countdown that appears after getting the
-promotional code.
-
--Listeners: Collect all functions that check if the buttons has been pressed and initializes
-the code of another JavaScript documents.

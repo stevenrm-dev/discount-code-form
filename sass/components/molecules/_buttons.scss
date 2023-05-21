@@ -1,10 +1,12 @@
 .radio-wrapper {
     background-color: $c-opacity--light;
     cursor: pointer;
+}
 
-    &.countdown__wrapper {
-        cursor: initial;
-    }
+.countdown__wrapper {
+    padding-bottom: .63rem;
+    display: flex;
+    cursor: initial;
 }
 
 .radio-wrapper,

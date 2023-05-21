@@ -45,9 +45,10 @@ function couponPageContent() {
     form.innerHTML = `
         <p class="quiz__tx tx--sans tx--uppercase tx__color--bright">Lo prometido es deuda</p>
         <form class="promo__wrapper">
-            <label for="i-promo"></label>
-            <input type="text" class="tx--code tx--promo tx--uppercase promo__code" value="${coupon}" id="i-promo" disabled>
-            <button class="btn--copy tx--code tx--copy tx__color--dark" type="button">Copiar</button>
+            <label class="coupon-wrapper" for="i-promo">
+                <input type="text" class="tx--code tx--promo tx--uppercase promo__code" value="${coupon}" id="i-promo" disabled>
+                <button class="btn--copy tx--code tx--copy tx__color--dark" type="button">Copiar</button>
+            </label>
         </form>
         <p class="tx__info tx--code tx__color--light space__block--10">Introduce este código en tu próxima compra para conseguir tu premio. ¡Disponible durante 20 minutos!</p>
         <div class="checkbox__wrapper countdown__wrapper">

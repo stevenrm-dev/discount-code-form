@@ -141,8 +141,8 @@ button {
     background-color: #fff;
     border-radius: 100%;
     position: absolute;
-    top: 11px;
-    left: 12px;
+    top: 1.16em;
+    left: 1.25em;
     opacity: 0;
     transition: .5s ease-in-out; }
   .input--radio:checked + .dot {
@@ -150,9 +150,16 @@ button {
   .input--radio:checked ~ .radio-wrapper {
     background-color: #C92F58; }
 
+ .coupon-wrapper {
+    display: flex;
+    align-items: stretch;
+    gap: .5em; }
+
 .promo__code {
   width: 62%;
-  border: none; }
+  color: #fff;
+  border: none;
+  padding-inline: .5em; }
 
 .material-symbols-outlined {
   font-variation-settings: 'FILL' 0,
@@ -173,7 +180,9 @@ button {
 .radio-wrapper {
   background-color: rgba(255, 255, 255, 0.09);
   cursor: pointer; }
-  .radio-wrapper.countdown__wrapper {
+  .countdown__wrapper {
+    padding-bottom: .63rem;
+    display: flex;
     cursor: initial; }
 
 .radio-wrapper,
